@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/threejs.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <canvas id="bg"></canvas>
+    <script type="module" src="/main.js"></script>
+  <main>
+    <h1>ThreeJS Demo</h1>
+  </main>
+    <controls>
+      <h2>Controls</h2>
+      <label class="inline-block">
+        <span>Rotation Speed (x):</span>
+        <input type="range" class="slider" id="rotationSpeedX" value="0" min="0" max="300">
+        <span id="rotationSpeedXValue">0</span>%
+      </label>
+      <label class="inline-block">
+        <span>Rotation Speed (y):</span>
+        <input type="range" class="slider" id="rotationSpeedY" value="0" min="0" max="300">
+        <span id="rotationSpeedYValue">0</span>%
+      </label>
+      <label class="inline-block">
+        <span>Rotation Speed (z):</span>
+        <input type="range" class="slider" id="rotationSpeedZ" value="0" min="0" max="300">
+        <span id="rotationSpeedZValue">0</span>%
+      </label>
+      <label class="inline-block">
+        <span>Clock Hand Rotation Speed:</span>
+        <input type="range" class="slider" id="clockRotationSpeed" value="100" min="0" max="1000">
+        <span id="clockRotationSpeedValue">100</span>%
+      </label>
+      <label>
+        <span>Background Color:</span>
+        <input type="color" class="slider" id="backgroundColor" value="100" min="0" max="300">
+        <span id="backgroundColorValue" class="uppercase">#000000</span>
+      </label>
+    </controls>
+  <footer class="text-white">
+    <p>"clock" (https://skfb.ly/oNp86) by rahimjonovmadiyor is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).</p>
+  </footer>
+  </body>
+</html>
